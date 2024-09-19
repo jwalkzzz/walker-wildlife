@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Animal Rescue and Rehabilitation Nonprofit">
+    <meta name="keywords" content="Animal Rescue, Wildlife Rehabilitation, Donations, Volunteers">
+    <meta name="author" content="Your Name">
+    <title>Animal Rescue Nonprofit</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        nav {
+            background-color: #333;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            padding: 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+        }
+
+        nav ul li a:hover {
+            background-color: #4CAF50;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+            background-color: white;
+            margin: 20px auto;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+            margin: 10px 0;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        .animal-info {
+            text-align: left;
+        }
+
+        .animal {
+            margin-bottom: 20px;
+        }
+
+        .animal h3 {
+            color: #4CAF50;
+        }
+
+        .animal p {
+            margin: 10px 0;
+        }
+
+        .animal a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        .animal a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Animal Rescue & Rehabilitation</h1>
+        <p>Saving Wildlife, One Life at a Time</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#volunteer">Volunteer</a></li>
+            <li><a href="#donate">Donate</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Animal Rescue</h2>
+            <p>We are dedicated to helping injured and orphaned wildlife return to their natural habitats. Join us in making a difference!</p>
+            <a href="#volunteer" class="button">Get Involved</a>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Our mission is to rescue, rehabilitate, and release injured wildlife. We provide medical care, foster care, and rehabilitation services for animals in need.</p>
+            
+            <div class="animal-info">
+                <h2>Learn More About the Animals We Help</h2>
+
+                <div class="animal">
+                    <h3>Raccoons</h3>
+                    <p>Raccoons are highly adaptable mammals known for their intelligence and dexterous front paws. They are often found in urban and rural areas alike. When injured or orphaned, raccoons can be rehabilitated and safely returned to the wild after proper care.</p>
+                    <a href="https://www.wildlife.state.nh.us/wildlife/profiles/raccoon.html" target="_blank">Learn more about raccoons on the NH Fish and Game website</a>
+                </div>
+
+                <div class="animal">
+                    <h3>Foxes</h3>
+                    <p>Foxes are small to medium-sized mammals known for their bushy tails and cunning behavior. While generally shy, they sometimes get into trouble when injured or displaced from their natural habitats. Our team works to rehabilitate foxes and ensure their safe return to the wild.</p>
+                    <a href="https://www.wildlife.state.nh.us/wildlife/profiles/red-fox.html" target="_blank">Learn more about foxes on the NH Fish and Game website</a>
+                </div>
+
+                <div class="animal">
+                    <h3>Skunks</h3>
+                    <p>Skunks are famous for their defensive spray, but they are gentle creatures that play an important role in controlling pests. If a skunk is injured, it requires careful handling to avoid stress. We focus on caring for them and releasing them back into their natural environments.</p>
+                    <a href="https://www.wildlife.state.nh.us/wildlife/profiles/skunk.html" target="_blank">Learn more about skunks on the NH Fish and Game website</a>
+                </div>
+
+                <div class="animal">
+                    <h3>Opossums</h3>
+                    <p>Opossums are North America's only marsupial and are often misunderstood. They are important scavengers and help clean up the environment. When orphaned or injured, opossums need specialized care due to their unique biology.</p>
+                    <a href="https://www.wildlife.state.nh.us/wildlife/profiles/opossum.html" target="_blank">Learn more about opossums on the NH Fish and Game website</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Wildlife Rescue & Rehabilitation</li>
+                <li>Public Education Programs</li>
+                <li>Volunteer Opportunities</li>
+                <li>Animal Tracking & Release</li>
+            </ul>
+        </section>
+
+        <section id="volunteer">
+            <h2>Volunteer with Us</h2>
+            <p>We are always in need of passionate volunteers to help with animal care, transportation, and community outreach.</p>
+            <a href="#contact" class="button">Sign Up to Volunteer</a>
+        </section>
+
+        <section id="donate">
+            <h2>Donate to Support Our Mission</h2>
+            <p>Your contributions help us provide medical care, food, and shelter for rescued animals. Thank you for your support!</p>
+            <a href="#contact" class="button">Donate Now</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Animal Rescue Nonprofit | All Rights Reserved</p>
+        <p>Contact us: <a href="mailto:info@animalrescue.org" style="color: white;">info@animalrescue.org</a></p>
+    </footer>
+
+</body>
+</html>
